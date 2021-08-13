@@ -4,9 +4,67 @@
         <!--
         Resource: uom.category
         -->
-        <record id="product_uom_categ_copies" model="uom.category">
-            <field name="name">Copias</field>
-            <field name="measure_type">copies</field>
+        <record id="product_uom_categ_copiesA4BN" model="uom.category">
+            <field name="name">Copias A4 BN</field>
+            <field name="measure_type">copiesA4BN</field>
+        </record>
+        <record id="product_uom_categ_copiesA4Color" model="uom.category">
+            <field name="name">Copias A4 Color</field>
+            <field name="measure_type">copiesA4Color</field>
+        </record>
+        <record id="product_uom_categ_copiesA3BN" model="uom.category">
+            <field name="name">Copias A3 BN</field>
+            <field name="measure_type">copiesA3BN</field>
+        </record>
+        <record id="product_uom_categ_copiesA3Color" model="uom.category">
+            <field name="name">Copias A3 Color</field>
+            <field name="measure_type">copiesA3Color</field>
+        </record>
+        <record id="product_uom_categ_copiesBunner" model="uom.category">
+            <field name="name">Copias Banner</field>
+            <field name="measure_type">copiesBunner</field>
+        </record>
+        <record id="product_uom_copiesA4BN" model="uom.uom">
+            <field name="category_id" ref="product_uom_categ_copiesA4BN"/>
+            <field name="name">Copias A4 BN</field>
+            <field name="factor" eval="1.0"/>
+            <field name="rounding" eval="1"/>
+        </record>
+        <record id="product_uom_copiesA4Color" model="uom.uom">
+            <field name="category_id" ref="product_uom_categ_copiesA4Color"/>
+            <field name="name">Copias A4 Color</field>
+            <field name="factor" eval="1.0"/>
+            <field name="rounding" eval="1"/>
+        </record>
+        <record id="product_uom_copiesA3BN" model="uom.uom">
+            <field name="category_id" ref="product_uom_categ_copiesA3BN"/>
+            <field name="name">Copias A3 BN</field>
+            <field name="factor" eval="1.0"/>
+            <field name="rounding" eval="1"/>
+        </record>
+        <record id="product_uom_copiesA3Color" model="uom.uom">
+            <field name="category_id" ref="product_uom_categ_copiesA3Color"/>
+            <field name="name">Copias A3 Color</field>
+            <field name="factor" eval="1.0"/>
+            <field name="rounding" eval="1"/>
+        </record>
+        <record id="product_uom_copiesBunner" model="uom.uom">
+            <field name="category_id" ref="product_uom_categ_copiesBunner"/>
+            <field name="name">Copias Banner</field>
+            <field name="factor" eval="1.0"/>
+            <field name="rounding" eval="1"/>
+        </record>
+        <record id="product_uom_copiesA3BNA4" model="uom.uom">
+            <field name="category_id" ref="product_uom_categ_copiesA4BN"/>
+            <field name="name">Copias A3 BN (Fact A4)</field>
+            <field name="factor" eval="2.0"/>
+            <field name="rounding" eval="1"/>
+        </record>
+        <record id="product_uom_copiesA3ColorA4" model="uom.uom">
+            <field name="category_id" ref="product_uom_categ_copiesA4Color"/>
+            <field name="name">Copias A3 Color (Fact A4)</field>
+            <field name="factor" eval="2.0"/>
+            <field name="rounding" eval="1"/>
         </record>
     </data>
 </odoo>

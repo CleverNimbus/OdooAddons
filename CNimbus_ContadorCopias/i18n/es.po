@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* CNimbus_ContadorCopias
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-13 11:42+0000\n"
+"PO-Revision-Date: 2021-08-13 11:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: CNimbus_ContadorCopias
+#: model:uom.category,name:CNimbus_ContadorCopias.product_uom_categ_copiesA3BN
+msgid "Copias A3 BN"
+msgstr "Copias A3 BN"
+
+#. module: CNimbus_ContadorCopias
+#: model:uom.category,name:CNimbus_ContadorCopias.product_uom_categ_copiesA3Color
+msgid "Copias A3 Color"
+msgstr "Copias A3 Color"
+
+#. module: CNimbus_ContadorCopias
+#: model:uom.category,name:CNimbus_ContadorCopias.product_uom_categ_copiesA4BN
+msgid "Copias A4 BN"
+msgstr "Copias A4 BN"
+
+#. module: CNimbus_ContadorCopias
+#: model:uom.category,name:CNimbus_ContadorCopias.product_uom_categ_copiesA4Color
+msgid "Copias A4 Color"
+msgstr "Copias A4 Color"
+
+#. module: CNimbus_ContadorCopias
+#: model:uom.category,name:CNimbus_ContadorCopias.product_uom_categ_copiesBunner
+msgid "Copias Banner"
+msgstr "Copias Banner"
+
+#. module: CNimbus_ContadorCopias
+#: model:ir.model.fields.selection,name:CNimbus_ContadorCopias.selection__uom_category__measure_type__copiesa3bn
+msgid "Copies A3 BN"
+msgstr ""
+
+#. module: CNimbus_ContadorCopias
+#: model:ir.model.fields.selection,name:CNimbus_ContadorCopias.selection__uom_category__measure_type__copiesa3color
+msgid "Copies A3 Color"
+msgstr "Copias A3 BN"
+
+#. module: CNimbus_ContadorCopias
+#: model:ir.model.fields.selection,name:CNimbus_ContadorCopias.selection__uom_category__measure_type__copiesa4bn
+msgid "Copies A4 BN"
+msgstr "Copias A4 BN"
+
+#. module: CNimbus_ContadorCopias
+#: model:ir.model.fields.selection,name:CNimbus_ContadorCopias.selection__uom_category__measure_type__copiesa4color
+msgid "Copies A4 Color"
+msgstr "Copias A4 Color"
+
+#. module: CNimbus_ContadorCopias
+#: model:ir.model.fields.selection,name:CNimbus_ContadorCopias.selection__uom_category__measure_type__copiesbunner
+msgid "Copies Banner"
+msgstr "Copias Banner"
+
+#. module: CNimbus_ContadorCopias
+#: model:ir.model,name:CNimbus_ContadorCopias.model_uom_category
+msgid "Product UoM Categories"
+msgstr "Categoria de productos UdM"
+
+#. module: CNimbus_ContadorCopias
+#: model:ir.model.fields,field_description:CNimbus_ContadorCopias.field_uom_category__measure_type
+msgid "Type of Measure"
+msgstr "Tipo de medida"
