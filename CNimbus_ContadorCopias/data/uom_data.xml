@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!--
+        Resource: uom.category
+        -->
+        <record id="product_uom_categ_copies" model="uom.category">
+            <field name="name">Copias</field>
+            <field name="measure_type">copies</field>
+        </record>
+    </data>
+</odoo>
