@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 {
     'name': 'Search by product codes',
     'version': '13.0.1.0',
