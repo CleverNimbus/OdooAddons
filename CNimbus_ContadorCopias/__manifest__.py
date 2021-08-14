@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 {
     'name': 'Units of measure for copies',
     'version': '13.0.1.0',
