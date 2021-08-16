@@ -3,7 +3,7 @@
     'version': '13.0.1.0',
     'category': 'Stock',
     'depends': ['product','prt_product_tweaks'],
-    'description': "Búsqueda por códigos de producto (tanto interno cómo adicionales)",
+    'description': "Búsqueda por códigos de producto (tanto interno cómo adicionales) ",
     'data': [
     ],
     'installable': True,
